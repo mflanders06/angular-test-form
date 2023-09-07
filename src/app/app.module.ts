@@ -10,6 +10,7 @@ import { MenuComponent } from './components/header/menu/menu.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatButtonModule } from '@angular/material/button';
+import { HomeInfoComponent } from './home/home-info/home-info.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { MatButtonModule } from '@angular/material/button';
     HomeComponent,
     HeaderComponent,
     MenuComponent,
+    HomeInfoComponent,
   ],
   imports: [
     BrowserModule,
