@@ -12,6 +12,8 @@ export class HomeInfoComponent implements OnInit {
   constructor(private homeService: HomeServiceService) {}
 
   ngOnInit(): void {
-    this.homeService.getData().subscribe((weatherData) => {});
+    this.homeService.getData().subscribe((weatherData) => {
+      console.log(weatherData);
+    });
   }
 }
